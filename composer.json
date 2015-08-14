@@ -5,7 +5,7 @@
         "adkarta",
         "traveldoc"
     ],
-    "homepage": "https://github.com/thephpleague/traveldoc",
+    "homepage": "https://github.com/adkarta/traveldoc",
     "license": "MIT",
     "authors": [
         {
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\Skeleton\\": "src"
+            "Adkarta\\Traveldoc\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Skeleton\\Test\\": "tests"
+            "Adkarta\\Traveldoc\\Test\\": "tests"
         }
     },
     "scripts": {
