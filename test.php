@@ -1,4 +1,20 @@
 <?php
+require 'vendor/autoload.php';
+use Adkarta\Traveldoc\TraveldocClient;
+$config = [
+    "username" => "****",
+    "password" => "****",
+    "client_name" => "****",
+    "configuration_name" => "****"
+];
+$client = new TraveldocClient($config);
+$GetSession = new stdClass();
+$GetSession->UserName = "****";
+$GetSession->Password= "****";
+$GetSession->ClientName = "****";
+$GetSession->ConfigurationName = "****";
+
+
 
 try {
     $SessionGUID = $client->GetSession($GetSession);
